@@ -1,0 +1,16 @@
+channels:
+  - conda-forge
+dependencies:
+  - c-compiler
+  - compilers
+  - cxx-compiler
+  - python=3.9
+  - scipy
+  - numpy<1.22
+  - matplotlib
+  - pandas
+  - pip
+  - pip:
+    - exoplanet
+    - pymc3
+    - pymc3-ext
