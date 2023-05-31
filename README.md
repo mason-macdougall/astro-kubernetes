@@ -2,6 +2,9 @@
 
 This is a simple toy-model to demonstrate how to run a parallelized set of many computationally-intensive Python jobs via Google Cloud's Kubernetes Engine.
 
+## Running on Kubernetes (via Snakemake)
+* Full instructions available at: https://tinyurl.com/astrokube (Google Doc)
+
 ## Folders and Files:
 * Folder `bin/`
   * File `script.py`
@@ -20,6 +23,3 @@ This is a simple toy-model to demonstrate how to run a parallelized set of many 
   * Specifies how to `script.py` (i.e. inputs, outputs, number of iterations)
   * Specifies memory resources needed to run `script.py`
      * See https://snakemake.readthedocs.io/en/stable/ for more information
-
-## Running on Kubernetes (via Snakemake)
-* Full instructions available at: https://tinyurl.com/astrokube (Google Doc)
